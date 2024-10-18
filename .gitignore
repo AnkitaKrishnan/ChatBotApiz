@@ -1,0 +1,41 @@
+# Ignore virtual environment directories
+chatbotapi_env/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset cache and model files
+datasets/
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Ignore Hugging Face model weights and cache
+.cache/
+huggingface/transformers/
+transformers_cache/
+transformers_output/
+
+# Ignore logs and output files
+logs/
+*.log
+*.out
+*.txt
+
+# Ignore generated HTML and LaTeX files
+_build/
+*.html
+*.pdf
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment configuration
+.env
