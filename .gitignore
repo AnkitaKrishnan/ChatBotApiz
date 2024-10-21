@@ -26,7 +26,7 @@ transformers_output/
 logs/
 *.log
 *.out
-*.txt
+
 
 # Ignore generated HTML and LaTeX files
 _build/
@@ -39,3 +39,8 @@ Thumbs.db
 
 # Ignore environment configuration
 .env
+
+/local
+/data
+/cache
+/scripts/huggingface_hubcreate_repo.py
